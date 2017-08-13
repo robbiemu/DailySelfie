@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dailyselfie="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/camera"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:id="@+id/menu_item_camera"
+        dailyselfie:showAsAction="always" />
+
+    <item
+        android:title="@string/delete_all"
+        android:enabled="true"
+        android:visible="true"
+        android:icon="@android:drawable/ic_menu_delete"
+        android:id="@+id/menu_item_delete"
+        dailyselfie:showAsAction="never" />
+
+</menu>
